@@ -16490,10 +16490,9 @@ select.form-control.form-control-soft-dark:focus::-ms-value {
 }
 
 .site-navbar.site-navbar-transparent:not(.scrolled):not(.navbar-toggled-show), .site-navbar.site-navbar-transparent.scrolled-0:not(.navbar-toggled-show) {
-  background: transparent !important;
+  background: rgba(3, 5, 7) !important;  /*change navbar base color*/
   box-shadow: none !important;
 }
-
 .navbar-toggler-alternative {
   position: relative;
   width: 32px;

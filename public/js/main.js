@@ -56,7 +56,6 @@ License: https://themeforest.net/licenses/standard
 
   // System Detector
   function ln_systemDetector() {
-
     var isMobile = {
       Android: function() {
         return navigator.userAgent.match(/Android/i);
@@ -98,7 +97,6 @@ License: https://themeforest.net/licenses/standard
   // [2. Fullpage]
   function ln_fullpage() {
     if( $ln_fullPage.length > 0 ){
-
       // Generate anchors
       var anchors = [];
       $ln_fullPage.children('section').each(function() {
@@ -286,7 +284,6 @@ License: https://themeforest.net/licenses/standard
   // [5. Navigation]
   function ln_navigation(){
     var smoothScrollLinks = $('a.scrollto, .site-navbar a[href^="#"]');
-
 	// Smooth Scroll
     smoothScrollLinks.off('click');
     smoothScrollLinks.on('click', function(e) {
@@ -330,6 +327,38 @@ License: https://themeforest.net/licenses/standard
       }
     });
 
+    $siteNavbarToggler.on('click', function() {
+        $(this).toggleClass('active');
+        if ($(this).hasClass('active')) {
+            $siteNavbar.addClass('scrolled');
+            $siteNavbar.removeClass('scrolled-0'); // Add a class to change navbar color
+            if( $siteNavbar.hasClass('navbar-toggled-show') ){
+                ln_navigationChangeClasses('toggled');
+              } else {
+                ln_navigationChangeClasses('scrolled');
+              }
+        } else {
+            $siteNavbar.removeClass('scrolled');
+            $siteNavbar.addClass('scrolled-0'); // Remove class to revert navbar color
+            if( $siteNavbar.hasClass('navbar-toggled-show') ){
+                ln_navigationChangeClasses('toggled');
+              } else {
+                ln_navigationChangeClasses();
+              }
+        }
+    });
+
+    // Close nav on click outside of '.site-navbar'
+    $(document).on('click touchstart', function(e) {
+        if ($('.site-navbar').is(e.target) || $(e.target).parents('.site-navbar').length > 0 || $('.site-navbar').is(e.target) || $(e.target).hasClass('navbar-toggler')) {
+            return;
+        };
+
+        if ($siteNavbarToggler.attr('aria-expanded') === 'true') {
+            $siteNavbarToggler.trigger('click');
+        }
+    });
+
     // Close nav on click outside of '.site-navbar'
     $(document).on( 'click touchstart', function(e){
       if ( $('.site-navbar').is(e.target) || $(e.target).parents('.site-navbar').length > 0 || $('.site-navbar').is(e.target) || $(e.target).hasClass('navbar-toggler') ){
@@ -345,7 +374,6 @@ License: https://themeforest.net/licenses/standard
 
   function ln_navigationOnScroll(){
     var scrollPos = $(window).scrollTop();
-
     if( $body.hasClass('ln-fullpage-active') ){
       return false;
     }
@@ -364,6 +392,18 @@ License: https://themeforest.net/licenses/standard
         ln_navigationChangeClasses('scrolled');
       }
     } else {
+
+        if($siteNavbarCollapse.hasClass('show')) {
+            $siteNavbar.addClass('scrolled');
+            $siteNavbar.removeClass('scrolled-0');
+      
+            if( $siteNavbar.hasClass('navbar-toggled-show') ){
+              ln_navigationChangeClasses('toggled');
+            } else {
+              ln_navigationChangeClasses('scrolled');
+            }
+
+         } else {  
       $siteNavbar.removeClass('scrolled');
       $siteNavbar.addClass('scrolled-0');
 
@@ -373,11 +413,11 @@ License: https://themeforest.net/licenses/standard
         ln_navigationChangeClasses();
       }
     }
+   }  
   }
 
   function ln_navigationResize(){
     var scrollPos = $(window).scrollTop();
-
     if( getWindowWidth() >= 1200 ){
       if ( $siteNavbarToggler.attr('aria-expanded') == 'true' ){
         $siteNavbar.removeClass('navbar-toggled-show');
@@ -415,7 +455,6 @@ License: https://themeforest.net/licenses/standard
   function ln_navigationChangeClasses(nav_event,target){
     if( nav_event_old === nav_event && !( nav_event == '' || nav_event == undefined ) && nav_event !== 'section' )
       return false;
-
     if( nav_event === 'toggled' && siteNavbar_toggled ){
       $siteNavbar.removeClass('navbar-light navbar-dark', siteNavbar_base,siteNavbar_scrolled).addClass(siteNavbar_toggled);
     } else if( nav_event === 'scrolled' && siteNavbar_scrolled ){
@@ -458,7 +497,6 @@ License: https://themeforest.net/licenses/standard
   // [6. Back to top]
   function ln_backToTop() {
     var scrollpos = $(window).scrollTop();
-
     if( !$body.hasClass('ln-fullpage-active') ){
       if( getWindowWidth() >= 576 ){
         if ( scrollpos > 100 ) {
@@ -493,7 +531,6 @@ License: https://themeforest.net/licenses/standard
 
   // [7. Backgrounds]
   function ln_backgrounds(){
-
     // Image
     var $bgImage = $('.bg-image-holder');
     if($bgImage.length){
@@ -558,10 +595,8 @@ License: https://themeforest.net/licenses/standard
 
   // [8. Animations]
   function ln_animations() {
-
     $('.animated').each(function() {
       var $element = $(this);
-
       new Waypoint({
         element: $element,
         handler: function(direction) {
@@ -589,7 +624,6 @@ License: https://themeforest.net/licenses/standard
   // [9. Countdown]
   function ln_countdown(){
     var countdown = $('.countdown[data-countdown]');
-
     if (countdown.length > 0) {
       countdown.each(function() {
         var $countdown = $(this),
@@ -610,7 +644,6 @@ License: https://themeforest.net/licenses/standard
       document.querySelectorAll('.mfp-iframe').length > 0 ||
       document.querySelectorAll('.mfp-ajax').length > 0 ||
       document.querySelectorAll('.open-popup-link').length > 0 ){
-
       if(!$().magnificPopup) {
         console.log('MagnificPopup: magnificPopup not defined.');
         return true;
@@ -700,7 +733,6 @@ License: https://themeforest.net/licenses/standard
   // [11. Slider]
   function ln_slider() {
     var slider = $('.slider');
-
     if(slider.length > 0){
       if( getWindowWidth() >= 992 && getWindowHeight() >= 768 ){
         if( !slider.hasClass('slick-initialized') ){
@@ -722,7 +754,6 @@ License: https://themeforest.net/licenses/standard
   // [12. Subscribe Form]
   function ln_subscribeForm(){
     var $subscribeForm = $('.subscribe-form');
-
     if ( $subscribeForm.length > 0 ){
       $subscribeForm.each( function(){
         var el = $(this),
@@ -756,7 +787,6 @@ License: https://themeforest.net/licenses/standard
   // [13. Contact Form]
   function ln_contactForm(){
     var $contactForm = $('.contact-form');
-
     if ( $contactForm.length > 0 ){
       $contactForm.each( function(){
         var el = $(this),
@@ -788,7 +818,7 @@ License: https://themeforest.net/licenses/standard
 
   // [14. Bootstrap]
   function ln_bootstrap() {
-
+  
     // Botostrap Tootltips
     $('[data-toggle="tooltip"]').tooltip();
 
@@ -799,7 +829,6 @@ License: https://themeforest.net/licenses/standard
 
   // [15. Helper Classes]
   function ln_helperClasses() {
-
     const class_JsMinVh100 = document.querySelectorAll('.js-min-vh-100');
     for (let i = 0; i < class_JsMinVh100.length; i++) {
       class_JsMinVh100[i].style.minHeight = getWindowHeight() + 'px';
@@ -841,5 +870,6 @@ License: https://themeforest.net/licenses/standard
     ln_backToTop();
     ln_navigationOnScroll();
   });
+
 
 })(jQuery);
