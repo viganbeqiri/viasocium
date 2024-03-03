@@ -327,38 +327,6 @@ License: https://themeforest.net/licenses/standard
       }
     });
 
-    $siteNavbarToggler.on('click', function() {
-        $(this).toggleClass('active');
-        if ($(this).hasClass('active')) {
-            $siteNavbar.addClass('scrolled');
-            $siteNavbar.removeClass('scrolled-0'); // Add a class to change navbar color
-            if( $siteNavbar.hasClass('navbar-toggled-show') ){
-                ln_navigationChangeClasses('toggled');
-              } else {
-                ln_navigationChangeClasses('scrolled');
-              }
-        } else {
-            $siteNavbar.removeClass('scrolled');
-            $siteNavbar.addClass('scrolled-0'); // Remove class to revert navbar color
-            if( $siteNavbar.hasClass('navbar-toggled-show') ){
-                ln_navigationChangeClasses('toggled');
-              } else {
-                ln_navigationChangeClasses();
-              }
-        }
-    });
-
-    // Close nav on click outside of '.site-navbar'
-    $(document).on('click touchstart', function(e) {
-        if ($('.site-navbar').is(e.target) || $(e.target).parents('.site-navbar').length > 0 || $('.site-navbar').is(e.target) || $(e.target).hasClass('navbar-toggler')) {
-            return;
-        };
-
-        if ($siteNavbarToggler.attr('aria-expanded') === 'true') {
-            $siteNavbarToggler.trigger('click');
-        }
-    });
-
     // Close nav on click outside of '.site-navbar'
     $(document).on( 'click touchstart', function(e){
       if ( $('.site-navbar').is(e.target) || $(e.target).parents('.site-navbar').length > 0 || $('.site-navbar').is(e.target) || $(e.target).hasClass('navbar-toggler') ){
@@ -393,17 +361,6 @@ License: https://themeforest.net/licenses/standard
       }
     } else {
 
-        if($siteNavbarCollapse.hasClass('show')) {
-            $siteNavbar.addClass('scrolled');
-            $siteNavbar.removeClass('scrolled-0');
-      
-            if( $siteNavbar.hasClass('navbar-toggled-show') ){
-              ln_navigationChangeClasses('toggled');
-            } else {
-              ln_navigationChangeClasses('scrolled');
-            }
-
-         } else {  
       $siteNavbar.removeClass('scrolled');
       $siteNavbar.addClass('scrolled-0');
 
@@ -412,7 +369,6 @@ License: https://themeforest.net/licenses/standard
       } else {
         ln_navigationChangeClasses();
       }
-    }
    }  
   }
 
@@ -436,6 +392,19 @@ License: https://themeforest.net/licenses/standard
         ln_navigationChangeClasses('scrolled');
       }
     } else {
+       
+        if($siteNavbarCollapse.hasClass('show')) {
+            $siteNavbar.addClass('scrolled');
+            $siteNavbar.removeClass('scrolled-0');
+      
+            if( $siteNavbar.hasClass('navbar-toggled-show') ){
+              ln_navigationChangeClasses('toggled');
+            } else {
+              ln_navigationChangeClasses('scrolled');
+            }
+
+         } else {  
+
       $siteNavbar.removeClass('scrolled');
       $siteNavbar.addClass('scrolled-0');
 
@@ -449,6 +418,7 @@ License: https://themeforest.net/licenses/standard
         ln_navigationChangeClasses();
       }
     }
+} 
   }
 
   var nav_event_old;
@@ -836,6 +806,10 @@ License: https://themeforest.net/licenses/standard
   }
 
   $(document).ready(function($){
+    $('#ln_fullPage').fullpage({
+        // Other options
+        scrollOverflow: true
+    });
     $('html, body').scrollTop(0);
     ln_screenDetector();
     ln_helperClasses();

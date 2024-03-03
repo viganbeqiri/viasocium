@@ -594,17 +594,16 @@
     <script src="{{ asset('js/popper.min.js') }}"></script>
     <script src="{{ asset('js/bootstrap.min.js') }}"></script>
     <script src="{{ asset('js/scrolloverflow.min.js') }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.js"></script>
     <script src="{{ asset('js/jquery.fullpage.min.js') }}"></script>
     <script src="{{ asset('js/jquery.waypoints.min.js') }}"></script>
     <script src="{{ asset('js/jquery.smooth-scroll.min.js') }}"></script>
     <script src="{{ asset('js/jquery.validate.min.js') }}"></script>
-    <script src="{{ asset('js/jquery.min.js') }}"></script>
     <script src="{{ asset('js/jquery.magnific-popup.min.js') }}"></script>
     <script src="{{ asset('js/jquery.countdown.min.js') }}"></script>
     <script src="{{ asset('js/granim.min.js') }}"></script>
     <script src="{{ asset('js/slick.min.js') }}"></script>
     <script src="{{ asset('js/vegas.min.js') }}"></script>
-
     <!-- Theme JS -->
     <script src="{{ asset('js/main.js') }}"></script>
 
