@@ -425,7 +425,8 @@
             </div>
             <div class="col-12 col-lg-6 offset-lg-1 animated" data-animation="fadeInUp" data-animation-delay="150">
               <div class="contact-form">
-                <form class="mb-0" id="cf" name="cf" action="include/sendemail.php" method="post" autocomplete="off">
+                <form class="mb-0" id="cf" name="cf" action="{{ route('contact.submit') }}" method="post" autocomplete="off">
+                  @csrf
                   <div class="form-row">
 
                     <div class="col-12 col-md-6">
