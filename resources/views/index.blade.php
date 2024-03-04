@@ -3,12 +3,12 @@
   <head>
 
     <!-- Title -->
-    <title>Home | Lana - Creative Coming Soon Template</title>
+    <title>VIA SOCIUM - Innovating Investment, Inspiring Growth.</title>
 
     <!-- Required Meta Tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Bootstrap HTML template and UI kit by Tektonthemes">
+    <meta name="description" content="Powered by Enermak">
 
     <!-- Libs CSS -->
     <link rel="stylesheet" href="{{ asset('css/jquery.fullpage.min.css') }}" type="text/css">
@@ -79,10 +79,10 @@
         </ul>
 
         <!-- Button -->
-        <button type="button" class="btn btn-soft-white d-block d-lg-none d-xl-inline-block mb-3 mb-lg-0 ml-lg-3 w-100 w-lg-auto" data-toggle="modal" data-target="#documentationModal" data-on-navbar-light="btn-soft-secondary" data-on-navbar-dark="btn-soft-white">Documentation</button>
+        <button type="button" class="btn btn-soft-white d-block d-lg-none d-xl-inline-block mb-3 mb-lg-0 ml-lg-3 w-100 w-lg-auto" data-toggle="modal" data-target="#documentationModal" data-on-navbar-light="btn-soft-secondary" data-on-navbar-dark="btn-soft-white">Important</button>
 
-        <!-- Button -->
-        <a class="btn btn-primary d-block d-lg-inline-block ml-lg-3" href="!#">Buy now</a>
+{{--        <!-- Button -->--}}
+{{--        <a class="btn btn-primary d-block d-lg-inline-block ml-lg-3" href="#">Close</a>--}}
 
       </div>
     </nav>
@@ -120,10 +120,10 @@
           <div class="row">
             <div class="col-12 col-lg-9 col-xl-6">
 
-              <h1 class="mb-4 animated" data-animation="fadeInUp">We bulid beautiful digital experiences</h1>
-              <p class="mb-7 animated" data-animation="fadeInUp" data-animation-delay="200">A beautiful and easy to use template that lets you create the perfect website for your future agency or business.</p>
+              <h1 class="mb-4 animated" data-animation="fadeInUp">Your vision, our expertise. Together, we build tomorrow.</h1>
+              <p class="mb-7 animated" data-animation="fadeInUp" data-animation-delay="200">With a comprehensive suite of services spanning investments, equity solutions, and business consultancy, we are dedicated to providing personalized, innovative strategies that not only address your current needs but also anticipate and shape future opportunities.</p>
               <a href="#our-mission" class="btn btn-white mr-3 scrollto animated" data-animation="fadeInUp" data-animation-delay="400">Learn more</a>
-              <button type="button" class="btn btn-soft-white scrollto animated" data-animation="fadeInUp" data-animation-delay="600" data-toggle="modal" data-target="#subscribeModal">Subscribe</button>
+             {{-- <button type="button" class="btn btn-soft-white scrollto animated" data-animation="fadeInUp" data-animation-delay="600" data-toggle="modal" data-target="#subscribeModal">Subscribe</button>--}}
 
             </div>
           </div>
@@ -137,7 +137,8 @@
           <div class="row">
             <div class="col-12 col-xl-6">
               <h2 class="mb-4 animated" data-animation="fadeInUp" data-animation-delay="150">Our Mission</h2>
-              <p class="animated" data-animation="fadeInUp" data-animation-delay="150">Mauris ut sem elementum, tristique velit sed, volutpat mauris. Ut interdum nibh sit amet imperdiet condimentum. Nulla sed tellus placerat, vehicula risus ac, sollicitudin quam. Quisque pharetra porta libero, a sagittis nisl tristique non. Etiam sapien purus, cursus eu pulvinar et, tempor sit amet ipsum. Sed a nisl sit amet lorem dictum hendrerit.</p>
+              <p class="animated" data-animation="fadeInUp" data-animation-delay="150">We strive to empower entrepreneurs and businesses to achieve their fullest potential through innovative investment strategies, equity solutions, and bespoke consultancy services.</p>
+                <a href="#what-we-do" class="btn btn-dark mr-3 scrollto animated" data-animation="fadeInUp" data-animation-delay="400">What can we offer?</a>
             </div>
           </div>
 
@@ -150,7 +151,7 @@
           <div class="row">
             <div class="col-12 col-xl-5 mb-8 mb-xl-0">
               <h2 class="animated mb-4" data-animation="fadeInUp">What we Do</h2>
-              <p class="animated" data-animation="fadeInUp" data-animation-delay="150"><span>Fusce massa dolor, mattis sed ultrices ut, placerat ut leo. Donec sed fringilla lectus, non vulputate orci. Integer id libero euismod, interdum ligula vel, porttitor magna. Sed euismod maximus finibus. Pellentesque tempus ultricies nisi at cursus. Nulla at nisi tellus. Suspendisse potenti.</span></p>
+              <p class="animated" data-animation="fadeInUp" data-animation-delay="150"><span>At VIA SOCIUM, we unite cutting-edge investment solutions with elite project management and consultancy services, crafting tailored strategies that propel businesses forward. Your vision, our expertise— together, we're building the foundation for tomorrow's success.</span></p>
             </div>
             <div class="col-12 col-xl-6 offset-xl-1">
               <div class="row">
@@ -159,42 +160,42 @@
                   <div class="icon-7x text-primary mb-4">
                     <i class="ti-timer"></i>
                   </div>
-                  <h3 class="h4 mb-0">Launch Quickly</h3>
+                  <h3 class="h4 mb-0">Investment Solutions</h3>
                 </div>
 
                 <div class="col-md-6 col-sm-6 mb-8 animated" data-animation="fadeInUp" data-animation-delay="150">
                   <div class="icon-7x text-primary mb-4">
-                    <i class="ti-brush-alt"></i>
+                    <i class="ti-money"></i>
                   </div>
-                  <h3 class="h4 mb-0">Stylish Design</h3>
+                  <h3 class="h4 mb-0">Financial Advisory and Analysis</h3>
                 </div>
 
                 <div class="col-md-6 col-sm-6 mb-8 animated" data-animation="fadeInUp" data-animation-delay="300">
                   <div class="icon-7x text-primary mb-4">
                     <i class="ti-book"></i>
                   </div>
-                  <h3 class="h4 mb-0">Well Documented</h3>
+                  <h3 class="h4 mb-0">Portfolio Management</h3>
                 </div>
 
                 <div class="col-md-6 col-sm-6 mb-8 animated" data-animation="fadeInUp" data-animation-delay="450">
                   <div class="icon-7x text-primary mb-4">
-                    <i class="ti-layers"></i>
+                    <i class="ti-user"></i>
                   </div>
-                  <h3 class="h4 mb-0">Multiple Styles</h3>
+                  <h3 class="h4 mb-0">Business Consultancy</h3>
                 </div>
 
                 <div class="col-md-6 col-sm-6 mb-8 mb-sm-0 animated" data-animation="fadeInUp" data-animation-delay="600">
                   <div class="icon-7x text-primary mb-4">
                     <i class="ti-settings"></i>
                   </div>
-                  <h3 class="h4 mb-0">Fully Customizable</h3>
+                  <h3 class="h4 mb-0">Project Management Consultancy</h3>
                 </div>
 
                 <div class="col-md-6 col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="750">
                   <div class="icon-7x text-primary mb-4">
-                    <i class="ti-headphone-alt"></i>
+                    <i class="ti-pencil"></i>
                   </div>
-                  <h3 class="h4 mb-0">Friendly Support</h3>
+                  <h3 class="h4 mb-0">Bid Support Services</h3>
                 </div>
 
               </div>
@@ -208,37 +209,37 @@
       <section class="ln-section d-xl-flex" data-anchor="our-solutions" data-tooltip="Our solutions" data-ui="light" data-navbar="navbar-dark">
         <div class="overlay overlay-advanced">
           <div class="overlay-inner bg-image-holder bg-cover">
-            <img src="{{ asset('images/image-3.jpg') }}" alt="background">
+            <img src="{{ asset('images/image-3c.jpg') }}" alt="background">
           </div>
           <div class="overlay-inner bg-dark opacity-50"></div>
         </div>
         <div class="container align-self-xl-center text-white">
           <div class="row mb-8">
             <div class="col-12 col-xl-6">
-              <h2 class="mb-4 animated" data-animation="fadeInUp">A complete marketing solution</h2>
-              <p class="animated" data-animation="fadeInUp" data-animation-delay="150">Mauris ut sem elementum, tristique velit sed, volutpat mauris. Ut interdum nibh sit amet imperdiet condimentum. Nulla sed tellus placerat, vehicula risus ac, sollicitudin quam. Quisque pharetra porta libero, a sagittis nisl tristique non.</p>
+              <h2 class="mb-4 animated" data-animation="fadeInUp">A complete lifecycle solution</h2>
+              <p class="animated" data-animation="fadeInUp" data-animation-delay="150">At VIA SOCIUM, we pride ourselves on offering a complete lifecycle solution that meticulously guides our clients from the initial spark of an idea to the triumphant realization of their goals. This holistic approach ensures not just the achievement of milestones but fosters sustainable growth and long-term success. Our process is segmented into four key steps, each designed to maximize efficiency, innovation, and value creation:</p>
             </div>
           </div>
           <div class="row">
 
             <div class="col-12 col-lg-6 mb-8 animated" data-animation="fadeInUp" data-animation-delay="150">
-              <h4>We are</h4>
-              <p class="mb-0">Quisque ultrices non velit sit amet consectetur. Cras turpis dolor, facilisis a nibh non, ullamcorper facilisis mauris. Nulla rutrum arcu sed ligula malesuada, quis condimentum eros sollicitudin. Morbi eget lorem turpis. Maecenas id metus sapien. Aliquam et est turpis. Sed sit amet dui vel sapien sagittis pellentesque nec id sem.</p>
+              <h4>Conceptualization:</h4>
+              <p class="mb-0">In this initial phase, we work closely with our clients to understand their vision, objectives, and challenges. Through collaborative workshops and strategic sessions, we help refine ideas, identify opportunities, and lay the groundwork for a viable, actionable plan. This step is crucial for setting clear, attainable goals and aligning expectations.</p>
             </div>
 
             <div class="col-12 col-lg-6 mb-8 animated" data-animation="fadeInUp" data-animation-delay="300">
-              <h4>We practice</h4>
-              <p class="mb-0">Quisque ultrices non velit sit amet consectetur. Cras turpis dolor, facilisis a nibh non, ullamcorper facilisis mauris. Nulla rutrum arcu sed ligula malesuada, quis condimentum eros sollicitudin. Morbi eget lorem turpis. Maecenas id metus sapien. Aliquam et est turpis. Sed sit amet dui vel sapien sagittis pellentesque nec id sem.</p>
+              <h4>Strategy Development:</h4>
+              <p class="mb-0">With a solid understanding of the concept, we move to strategize. This involves market research, analysis, and leveraging our expertise to develop a comprehensive strategy that outlines the path to success. We focus on creating a robust, flexible plan that can adapt to market dynamics while staying true to the core objectives. This strategy encompasses financial planning, risk assessment, and defining key performance indicators (KPIs).</p>
             </div>
 
             <div class="col-12 col-lg-6 mb-8 mb-lg-0 animated" data-animation="fadeInUp" data-animation-delay="450">
-              <h4>We deliver</h4>
-              <p class="mb-0">Quisque ultrices non velit sit amet consectetur. Cras turpis dolor, facilisis a nibh non, ullamcorper facilisis mauris. Nulla rutrum arcu sed ligula malesuada, quis condimentum eros sollicitudin. Morbi eget lorem turpis. Maecenas id metus sapien. Aliquam et est turpis. Sed sit amet dui vel sapien sagittis pellentesque nec id sem.</p>
+              <h4>Implementation:</h4>
+              <p class="mb-0">The implementation phase is where plans are set into motion. Our project management and consultancy teams work diligently to execute the strategy, overseeing every aspect of the project. From coordinating resources to managing timelines and ensuring quality standards are met, we are committed to bringing the vision to life efficiently and effectively. Regular progress reviews and adjustments keep the project on track toward its goals.</p>
             </div>
 
             <div class="col-12 col-lg-6 animated" data-animation="fadeInUp" data-animation-delay="600">
-              <h4>We create and innovate</h4>
-              <p class="mb-0">Quisque ultrices non velit sit amet consectetur. Cras turpis dolor, facilisis a nibh non, ullamcorper facilisis mauris. Nulla rutrum arcu sed ligula malesuada, quis condimentum eros sollicitudin. Morbi eget lorem turpis. Maecenas id metus sapien. Aliquam et est turpis. Sed sit amet dui vel sapien sagittis pellentesque nec id sem.</p>
+              <h4>Evaluation and Finalization:</h4>
+              <p class="mb-0">As projects near completion, we engage in a thorough evaluation process, comparing outcomes against initial objectives and KPIs. This step is vital for understanding the project's impact, learning from the process, and making any necessary adjustments before finalization. Upon successful completion, we ensure a smooth transition, whether it involves moving to operational status, market entry, or preparing for the next phase of growth.</p>
             </div>
 
           </div>
@@ -251,7 +252,7 @@
           <div class="row mb-8">
             <div class="col-12 col-xl-6">
               <h2 class="mb-4 animated" data-animation="fadeInUp">Our Work</h2>
-              <p class="animated" data-animation="fadeInUp" data-animation-delay="150">Donec sollicitudin libero vitae massa placerat tempor. Duis rutrum nisl eu ipsum varius, nec feugiat tortor vulputate. Integer pellentesque leo id metus dictum, a tristique tellus faucibus.</p>
+              <p class="animated" data-animation="fadeInUp" data-animation-delay="150">In showcasing our distinguished past performance, VIA SOCIUM takes pride in presenting a curated selection of our transformative projects. All of these, are a testament to our comprehensive approach, from initiation to full-scale execution. Each project in our slider is accompanied by detailed insights, illustrating our commitment to turning visionary ideas into successful realities. Explore these stories to witness the breadth of our expertise and the depth of our impact.</p>
             </div>
           </div>
           <div class="slider animated" data-animation="fadeInUp" data-animation-delay="300" data-slick='{"dots": true}'>
@@ -264,7 +265,7 @@
                       <a href="{{ asset('images/portfolio/project-6.jpg') }}" class="mfp-image">
                         <div class="media-container">
                           <div class="bg-image-holder bg-cover">
-                            <img src="{{ asset('images/portfolio/project-6-min.jpg') }}" alt="">
+                            <img src="{{ asset('images/portfolio/project-6-min.png') }}" alt="">
                           </div>
                         </div>
                       </a>
@@ -273,8 +274,9 @@
                   <div class="col-12 col-lg-5">
                     <div class="pt-lg-8">
                       <div class="divider divider-alt bg-dark mt-0 mb-8 d-none d-lg-block"></div>
-                      <h4 class="h3 item-title">Mountains</h4>
-                      <p class="item-cat">Web Design</p>
+                      <h4 class="h3 item-title">Costimate</h4>
+                      <p class="item-cat">AI-Powered CRM Platform</p>
+                        <a href="https://www.costimate.net"><p class="item-cat">www.costimate.net</p></a>
                     </div>
                   </div>
                 </div>
@@ -286,10 +288,10 @@
                 <div class="row flex-lg-row-reverse">
                   <div class="col-12 col-lg-7 mb-4 mb-lg-0">
                     <div class="item-media">
-                      <a href="{{ asset('images/portfolio/project-1.jpg') }}" class="mfp-image">
+                      <a href="{{ asset('images/portfolio/project-1.png') }}" class="mfp-image">
                         <div class="media-container">
-                          <div class="bg-image-holder bg-cover">
-                            <img src="{{ asset('images/portfolio/project-1-min.jpg') }}" alt="">
+                          <div class="bg-image-holder bg-cover" >
+                            <img src="{{ asset('images/portfolio/project-1-min.png') }}" alt="">
                           </div>
                         </div>
                       </a>
@@ -298,8 +300,9 @@
                   <div class="col-12 col-lg-5 d-lg-flex justify-content-lg-end text-lg-right">
                     <div class="pt-lg-8">
                       <div class="divider divider-alt bg-dark mt-0 mb-8 ml-auto mr-0 d-none d-lg-block"></div>
-                      <h4 class="h3 item-title">Love</h4>
-                      <p class="item-cat">Web Design</p>
+                      <h4 class="h3 item-title">Enermak</h4>
+                      <p class="item-cat">Energy Delivery Solutions</p>
+                        <a href="https://www.enermak.net"><p class="item-cat">www.enermak.net</p></a>
                     </div>
                   </div>
                 </div>
@@ -311,10 +314,10 @@
                 <div class="row">
                   <div class="col-12 col-lg-7 mb-4 mb-lg-0">
                     <div class="item-media">
-                      <a href="{{ asset('images/portfolio/project-2.jpg') }}" class="mfp-image">
+                      <a href="{{ asset('images/portfolio/project-2.jpeg') }}" class="mfp-image">
                         <div class="media-container">
                           <div class="bg-image-holder bg-cover">
-                            <img src="{{ asset('images/portfolio/project-2-min.jpg') }}" alt="">
+                            <img src="{{ asset('images/portfolio/project-2-min.jpeg') }}" alt="">
                           </div>
                         </div>
                       </a>
@@ -323,65 +326,66 @@
                   <div class="col-12 col-lg-5">
                     <div class="pt-lg-8">
                       <div class="divider divider-alt bg-dark mt-0 mb-8 d-none d-lg-block"></div>
-                      <h4 class="h3 item-title">Beautiful Girl</h4>
-                      <p class="item-cat">Brand</p>
+                      <h4 class="h3 item-title">AutoMatch</h4>
+                      <p class="item-cat">Vehicle Service platform. First of its kind in UAE</p>
+                        <a href="https://www.automatch.ae"><p class="item-cat">www.automatch.ae</p></a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div>
-              <div class="portfolio-item mb-8">
-                <div class="row flex-lg-row-reverse">
-                  <div class="col-12 col-lg-7 mb-4 mb-lg-0">
-                    <div class="item-media">
-                      <a href="{{ asset('images/portfolio/project-3.jpg') }}" class="mfp-image">
-                        <div class="media-container">
-                          <div class="bg-image-holder bg-cover">
-                            <img src="{{ asset('images/portfolio/project-3-min.jpg') }}" alt="">
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="col-12 col-lg-5 d-lg-flex justify-content-lg-end text-lg-right">
-                    <div class="pt-lg-8">
-                      <div class="divider divider-alt bg-dark mt-0 mb-8 ml-auto mr-0 d-none d-lg-block"></div>
-                      <h4 class="h3 item-title">Future City</h4>
-                      <p class="item-cat">Web Design</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+{{--            <div>--}}
+{{--              <div class="portfolio-item mb-8">--}}
+{{--                <div class="row flex-lg-row-reverse">--}}
+{{--                  <div class="col-12 col-lg-7 mb-4 mb-lg-0">--}}
+{{--                    <div class="item-media">--}}
+{{--                      <a href="{{ asset('images/portfolio/project-3.jpg') }}" class="mfp-image">--}}
+{{--                        <div class="media-container">--}}
+{{--                          <div class="bg-image-holder bg-cover">--}}
+{{--                            <img src="{{ asset('images/portfolio/project-3-min.jpg') }}" alt="">--}}
+{{--                          </div>--}}
+{{--                        </div>--}}
+{{--                      </a>--}}
+{{--                    </div>--}}
+{{--                  </div>--}}
+{{--                  <div class="col-12 col-lg-5 d-lg-flex justify-content-lg-end text-lg-right">--}}
+{{--                    <div class="pt-lg-8">--}}
+{{--                      <div class="divider divider-alt bg-dark mt-0 mb-8 ml-auto mr-0 d-none d-lg-block"></div>--}}
+{{--                      <h4 class="h3 item-title">Future City</h4>--}}
+{{--                      <p class="item-cat">Web Design</p>--}}
+{{--                    </div>--}}
+{{--                  </div>--}}
+{{--                </div>--}}
+{{--              </div>--}}
+{{--            </div>--}}
 
-            <div>
-              <div class="portfolio-item">
-                <div class="row">
-                  <div class="col-12 col-lg-7 mb-4 mb-lg-0">
-                    <div class="item-media">
-                      <a href="{{ asset('images/portfolio/project-4.jpg') }}" class="mfp-image">
-                        <div class="media-container">
-                          <div class="bg-image-holder bg-cover">
-                            <img src="{{ asset('images/portfolio/project-4-min.jpg') }}" alt="">
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="col-12 col-lg-5">
-                    <div class="pt-lg-8">
-                      <div class="divider divider-alt bg-dark mt-0 mb-8 d-none d-lg-block"></div>
-                      <h4 class="h3 item-title">Golden Gate Bridge</h4>
-                      <p class="item-cat">Design</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+{{--            <div>--}}
+{{--              <div class="portfolio-item">--}}
+{{--                <div class="row">--}}
+{{--                  <div class="col-12 col-lg-7 mb-4 mb-lg-0">--}}
+{{--                    <div class="item-media">--}}
+{{--                      <a href="{{ asset('images/portfolio/project-4.jpg') }}" class="mfp-image">--}}
+{{--                        <div class="media-container">--}}
+{{--                          <div class="bg-image-holder bg-cover">--}}
+{{--                            <img src="{{ asset('images/portfolio/project-4-min.jpg') }}" alt="">--}}
+{{--                          </div>--}}
+{{--                        </div>--}}
+{{--                      </a>--}}
+{{--                    </div>--}}
+{{--                  </div>--}}
+{{--                  <div class="col-12 col-lg-5">--}}
+{{--                    <div class="pt-lg-8">--}}
+{{--                      <div class="divider divider-alt bg-dark mt-0 mb-8 d-none d-lg-block"></div>--}}
+{{--                      <h4 class="h3 item-title">Golden Gate Bridge</h4>--}}
+{{--                      <p class="item-cat">Design</p>--}}
+{{--                    </div>--}}
+{{--                  </div>--}}
+{{--                </div>--}}
+{{--              </div>--}}
+{{--            </div>--}}
 
-          </div>
+{{--          </div>--}}
         </div>
       </section>
 
@@ -390,7 +394,7 @@
           <div class="row mb-7">
             <div class="col-12 col-xl-6">
               <h2 class="mb-4 animated" data-animation="fadeInUp">Contact Us</h2>
-              <p class="animated" data-animation="fadeInUp" data-animation-delay="150">Want to say hello? Want to know more about us? Give us a call or drop us an email and we will get back to you as soon as we can.</p>
+              <p class="animated" data-animation="fadeInUp" data-animation-delay="150">Want to say hello? Drop us an email and we will get back to you as soon as we can.</p>
             </div>
           </div>
           <div class="row">
@@ -401,24 +405,23 @@
                   <div class="icon-5x text-primary mb-4">
                     <i class="ti-mobile"></i>
                   </div>
-                  <p class="mb-0">(0091) 1111 1234567<br/>
-                  (084) 2222 1234567</p>
+                  <p class="mb-0">+971 54 3665640<br/>
+                  </p>
                 </div>
 
                 <div class="col-12 col-md-4 col-lg-6 mb-8 mb-md-0 mb-lg-5 animated" data-animation="fadeInUp" data-animation-delay="150">
                   <div class="icon-5x text-primary mb-4">
                     <i class="ti-location-pin"></i>
                   </div>
-                  <p class="mb-0">69 Halsey St, New York, Ny 10002,<br/>
-                  United States</p>
+                  <p class="mb-0">Block B, Office – B36-040, Sharjah, <br/>
+                  United Arab Emirates</p>
                 </div>
 
                 <div class="col-12 col-md-4 col-lg-6 animated" data-animation="fadeInUp" data-animation-delay="150">
                   <div class="icon-5x text-primary mb-4">
                     <i class="ti-email"></i>
                   </div>
-                  <p class="mb-0"><a href="mailto:support@example.com" class="text-dark">support@example.com</a><br/>
-                  <a href="mailto:hello@example.com" class="text-dark">hello@example.com</a></p>
+                  <p class="mb-0"><a href="mailto:info@viasocium.com" class="text-dark">info@viasocium.com</a></p>
                 </div>
 
               </div>
@@ -501,7 +504,7 @@
                 </a>
               </li>
             </ul>
-            <p class="mb-0">© 2023 Lana - All Rights Reserved - <a href="#!" class="text-gray-400">Terms of Service</a></p>
+            <p class="mb-0">© 2024 Via Socium - All Rights Reserved - <a href="#!" class="text-gray-400">Terms of Service</a></p>
           </div>
         </div>
       </div>
@@ -519,7 +522,7 @@
 
     <!-- Fullpage - Copyright -->
     <div class="ln-copyright text-right">
-      <p>© 2023 Lana - All Rights Reserved - <a href="#!">Terms of Service</a></p>
+      <p>© 2024 Via Socium - All Rights Reserved - <a href="#!">Terms of Service</a></p>
     </div>
 
     <!-- Documentation Modal -->
@@ -538,11 +541,11 @@
             <div class="icon icon-boxed icon-7x rounded bg-soft-primary text-primary mb-8">
               <i class="ti-book"></i>
             </div>
-            <h2 id="documentation" class="mb-3">Documentation</h2>
-            <p class="mb-8">This theme is easy to configure and comes witch a well documented help file, which will assist you in the configuration of your new website in few minutes.</p>
+            <h2 id="important" class="mb-3">Important</h2>
+            <p class="mb-8">Our portfolio website is still being stitched by our tailors. The final version will be released later this year (2024)</p>
 
             <!-- Button -->
-            <a class="btn btn-primary d-block d-lg-inline-block" href="!#">Buy theme</a>
+            <a class="btn btn-primary d-block d-lg-inline-block" href="/">Close</a>
 
           </div>
 
@@ -568,23 +571,23 @@
           </div>
 
           <!-- Modal Body -->
-          <div class="modal-body py-5 py-lg-8 px-5 px-lg-8 text-white text-center">
+{{--          <div class="modal-body py-5 py-lg-8 px-5 px-lg-8 text-white text-center">--}}
 
-            <h2 id="subscribeNewsletter" class="mb-4">Subscribe<br/> to our newsletter</h2>
-            <p class="mb-7 mb-lg-10">Signup for our weekly newsletter to get the latest news, updates and amazing offers delivered directly in your inbox.</p>
-            <div class="subscribe-form">
-              <form id="sf" name="sf" action="include/subscribe.php" method="post">
-                <div class="form-process"></div>
-                <div class="form-group">
-                  <input type="email" id="sf-email" name="sf-email" placeholder="Enter Your Email Address" class="form-control required">
-                </div>
-                <input type="text" id="sf-botcheck" name="sf-botcheck" value="" class="form-control d-none">
-                <button class="btn btn-soft-white btn-block" type="submit" id="sf-submit" name="sf-submit">Notify Me</button>
-              </form>
-              <div class="subscribe-form-result"></div>
-            </div>
+{{--            <h2 id="subscribeNewsletter" class="mb-4">Subscribe<br/> to our newsletter</h2>--}}
+{{--            <p class="mb-7 mb-lg-10">Signup for our weekly newsletter to get the latest news, updates and amazing offers delivered directly in your inbox.</p>--}}
+{{--            <div class="subscribe-form">--}}
+{{--              <form id="sf" name="sf" action="include/subscribe.php" method="post">--}}
+{{--                <div class="form-process"></div>--}}
+{{--                <div class="form-group">--}}
+{{--                  <input type="email" id="sf-email" name="sf-email" placeholder="Enter Your Email Address" class="form-control required">--}}
+{{--                </div>--}}
+{{--                <input type="text" id="sf-botcheck" name="sf-botcheck" value="" class="form-control d-none">--}}
+{{--                <button class="btn btn-soft-white btn-block" type="submit" id="sf-submit" name="sf-submit">Notify Me</button>--}}
+{{--              </form>--}}
+{{--              <div class="subscribe-form-result"></div>--}}
+{{--            </div>--}}
 
-          </div>
+{{--          </div>--}}
 
         </div>
       </div>
