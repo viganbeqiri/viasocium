@@ -401,13 +401,13 @@
             <div class="col-12 col-lg-5 mb-8 mb-lg-0">
               <div class="row">
 
-                <div class="col-12 col-md-4 col-lg-6 mb-8 mb-md-0 mb-lg-5 animated" data-animation="fadeInUp" data-animation-delay="150">
-                  <div class="icon-5x text-primary mb-4">
-                    <i class="ti-mobile"></i>
-                  </div>
-                  <p class="mb-0">+971 54 3665640<br/>
-                  </p>
-                </div>
+{{--                <div class="col-12 col-md-4 col-lg-6 mb-8 mb-md-0 mb-lg-5 animated" data-animation="fadeInUp" data-animation-delay="150">--}}
+{{--                  <div class="icon-5x text-primary mb-4">--}}
+{{--                    <i class="ti-mobile"></i>--}}
+{{--                  </div>--}}
+{{--                  <p class="mb-0">+971 54 3665640<br/>--}}
+{{--                  </p>--}}
+{{--                </div>--}}
 
                 <div class="col-12 col-md-4 col-lg-6 mb-8 mb-md-0 mb-lg-5 animated" data-animation="fadeInUp" data-animation-delay="150">
                   <div class="icon-5x text-primary mb-4">
@@ -426,51 +426,51 @@
 
               </div>
             </div>
-            <div class="col-12 col-lg-6 offset-lg-1 animated" data-animation="fadeInUp" data-animation-delay="150">
-              <div class="contact-form">
-                <form class="mb-0" id="cf" name="cf" action="{{ route('contact.submit') }}" method="post" autocomplete="off">
-                  @csrf
-                  <div class="form-row">
+{{--            <div class="col-12 col-lg-6 offset-lg-1 animated" data-animation="fadeInUp" data-animation-delay="150">--}}
+{{--              <div class="contact-form">--}}
+{{--                <form class="mb-0" id="cf" name="cf" action="{{ route('contact.submit') }}" method="post" autocomplete="off">--}}
+{{--                  @csrf--}}
+{{--                  <div class="form-row">--}}
 
-                    <div class="col-12 col-md-6">
-                      <div class="form-group">
-                        <input type="text" id="cf-name" name="cf-name" placeholder="Enter your name" class="form-control required">
-                      </div>
-                    </div>
+{{--                    <div class="col-12 col-md-6">--}}
+{{--                      <div class="form-group">--}}
+{{--                        <input type="text" id="cf-name" name="cf-name" placeholder="Enter your name" class="form-control required">--}}
+{{--                      </div>--}}
+{{--                    </div>--}}
 
-                    <div class="col-12 col-md-6">
-                      <div class="form-group">
-                        <input type="email" id="cf-email" name="cf-email" placeholder="Enter your email address" class="form-control required">
-                      </div>
-                    </div>
+{{--                    <div class="col-12 col-md-6">--}}
+{{--                      <div class="form-group">--}}
+{{--                        <input type="email" id="cf-email" name="cf-email" placeholder="Enter your email address" class="form-control required">--}}
+{{--                      </div>--}}
+{{--                    </div>--}}
 
-                    <div class="col-12">
-                      <div class="form-group">
-                        <input type="text" id="cf-subject" name="cf-subject" placeholder="Subject (Optional)" class="form-control">
-                      </div>
-                    </div>
+{{--                    <div class="col-12">--}}
+{{--                      <div class="form-group">--}}
+{{--                        <input type="text" id="cf-subject" name="cf-subject" placeholder="Subject (Optional)" class="form-control">--}}
+{{--                      </div>--}}
+{{--                    </div>--}}
 
-                    <div class="col-12 mb-4">
-                      <div class="form-group">
-                        <textarea name="cf-message" id="cf-message" placeholder="Here goes your message" class="form-control required" rows="7"></textarea>
-                      </div>
-                    </div>
+{{--                    <div class="col-12 mb-4">--}}
+{{--                      <div class="form-group">--}}
+{{--                        <textarea name="cf-message" id="cf-message" placeholder="Here goes your message" class="form-control required" rows="7"></textarea>--}}
+{{--                      </div>--}}
+{{--                    </div>--}}
 
-                    <div class="col-12 d-none">
-                      <input type="text" id="cf-botcheck" name="cf-botcheck" value="">
-                    </div>
+{{--                    <div class="col-12 d-none">--}}
+{{--                      <input type="text" id="cf-botcheck" name="cf-botcheck" value="">--}}
+{{--                    </div>--}}
 
-                    <input type="hidden" name="prefix" value="cf-">
+{{--                    <input type="hidden" name="prefix" value="cf-">--}}
 
-                    <div class="col-12">
-                      <button class="btn btn-primary" type="submit" id="cf-submit" name="cf-submit">Send Message</button>
-                    </div>
+{{--                    <div class="col-12">--}}
+{{--                      <button class="btn btn-primary" type="submit" id="cf-submit" name="cf-submit">Send Message</button>--}}
+{{--                    </div>--}}
 
-                  </div>
-                </form>
-                <div class="contact-form-result"></div>
-              </div>
-            </div>
+{{--                  </div>--}}
+{{--                </form>--}}
+{{--                <div class="contact-form-result"></div>--}}
+{{--              </div>--}}
+{{--            </div>--}}
           </div>
         </div>
       </section>
